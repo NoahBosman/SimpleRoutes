@@ -1,0 +1,17 @@
+{
+    "name": "noahbosman/simpleroutes",
+    "type": "library",
+    "description": "MVC library for Wordpress",
+    "homepage": "https://github.com/noahbosman/simpleroutes.git",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "altorouter/altorouter": "^2.0",
+        "upstatement/routes": "^0.8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}

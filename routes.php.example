@@ -1,0 +1,13 @@
+<?php
+if (class_exists('SimpleRoutes\Route')) {
+
+	(new \SimpleRoutes\Route())->url('url')
+	                           ->controller('Path\To\Controller@Function')
+	                           ->methods(['POST', 'GET'])
+	                           ->call();
+
+	(new \SimpleRoutes\Route())->url('url/:id')
+	                           ->controller('Path\To\Controller@Function')
+	                           ->methods(['POST', 'GET'])
+	                           ->call();
+}
